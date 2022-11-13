@@ -60,6 +60,7 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
   const superSkill: Skill[] = skills.filter(
     (item) => item.isBestSkill === true
   );
+
   return {
     props: {
       pageInfo,
